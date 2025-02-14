@@ -1,0 +1,333 @@
+*{
+    font-family: 'Times New Roman';
+    font-size: medium;
+    background-color: #f0d5cef7;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Name{
+    font-weight: 1000;
+    font-size: xx-large;
+    font-family: 'Roboto' ;
+    margin-top: 5px;
+    margin-right: 5px; 
+    margin-bottom: 2.5px;
+    color: rgb(201, 58, 19);
+}
+
+.Details{
+    
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(26, 14, 14, 0.1);
+  background-color: #f4ebda;
+  transition: transform 0.3s ease-in-out;
+  
+    padding-top: 10px;   
+    padding-bottom: 10px;  
+    padding-right: 10px; 
+    padding-left: 5px;          
+    margin-top: 10px;     
+    margin-bottom: 40px;    
+    margin-right: 20px;            
+}
+
+.DP{
+    background-image: url("animated pic.avif");
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 647px;
+    height: 200px;
+    width: 200px;
+    border: 2.5px solid rgb(201, 58, 19);
+    image-orientation: center;
+}
+
+.Age{
+    font-weight: 300;
+    font-size:smaller;
+    background-color: transparent;
+    font-family: Arial ;
+    font-style: inherit;
+    color: rgb(201, 58, 19);
+}
+
+.Status{
+    font-weight: 300;
+    font-size:smaller;
+    font-family: Arial ;
+    font-style: inherit;
+    background-color: transparent;
+    color: rgb(201, 58, 19);
+}
+
+.Location{
+    font-weight: 300;
+    font-size:smaller;
+    font-family: Arial ;
+    font-style: inherit;
+    background-color: transparent;
+    color: rgb(201, 58, 19);
+}
+
+.Need{
+    font-style: italic ;
+    font-weight: bold;
+    font-size: smaller;
+    color: rgb(201, 58, 19);
+}
+
+.About{
+    font-family: 'Roboto' ;
+    font-size: large;
+    font-style: bold;
+    font-weight: 1000;
+    color: rgb(201, 58, 19);
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
+
+.Developer{
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial ;
+    font-style: italic;
+    background-color: pink;
+    color: rgb(201, 58, 19);
+}
+
+.Me{
+    border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(26, 14, 14, 0.1);
+  background-color: beige;
+  transition: transform 0.3s ease-in-out;
+    font-weight: 300;
+    font-size:smaller;
+    font-family: Arial ;
+    font-style: inherit;
+    margin-bottom: 40px;
+    background-color: transparent;
+    color: rgb(201, 58, 19);
+}
+
+.Youget{
+    font-family: 'Roboto' ;
+    font-size: large;
+    font-weight: 1000;
+    color: rgb(201, 58, 19);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.Get{
+    border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(26, 14, 14, 0.1);
+  background-color: beige;
+  transition: transform 0.3s ease-in-out;
+    font-weight: 300;
+    font-size:smaller;
+    font-family: Arial ;
+    font-style: inherit;
+    margin-bottom: 40px;
+    background-color: transparent;
+    color: rgb(201, 58, 19);
+}
+
+.Lookingfor{
+    font-family: 'Roboto' ;
+    font-size: large;
+    font-weight: 1000;
+    color: rgb(201, 58, 19);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.For{
+    border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(26, 14, 14, 0.1);
+  background-color: transparent;
+  transition: transform 0.3s ease-in-out;
+    font-weight: 300;
+    font-size:smaller;
+    font-family: Arial ;
+    font-style: inherit;
+    margin-bottom: 40px;
+    background-color: transparent;
+    color: rgb(201, 58, 19);
+    height: 170px;
+}
+
+.Funfact{
+    font-family: 'Roboto' ;
+    font-size: large;
+    font-weight: 1000;
+    color: rgb(201, 58, 19);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.Fact{
+    border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(26, 14, 14, 0.1);
+  background-color:beige;
+  transition: transform 0.3s ease-in-out;
+    font-weight: 300;
+    font-size:smaller;
+    font-family: Arial ;
+    font-style: inherit;
+    margin-bottom: 40px;
+    background-color: pink;
+    color: rgb(201, 58, 19);
+}
+
+.Connect{
+    font-family: 'Roboto' ;
+    font-size: large;
+    font-weight: 1000;
+    color: rgb(201, 58, 19);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 300px;             
+    padding: 10px;            
+    font-size: 16px;          
+    border: 2px solid #f4ebda; 
+    border-radius: 5px;       
+    background-color:beige; 
+    color: rgb(201, 58, 19);              
+    transition: border-color 0.3s ease; 
+    margin-bottom: 40px;
+  }
+
+  button{
+    background-color: beige;
+    border-color:rgb(201, 58, 19) ;
+    color: rgb(201, 58, 19);
+    margin: 10px;
+    justify-content: center;  
+    align-items: center;
+  }
+
+  .Date{
+    font-family: 'Roboto' ;
+    font-size: large;
+    font-weight: 1000;
+    color: rgb(201, 58, 19);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Ideas{
+    margin-bottom: 40px;
+    font-family: 'Roboto' ;
+    font-size: large;
+    font-weight: 1000;
+    color: rgb(201, 58, 19);
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+  }
+
+  .glowing-button {
+    background-color: #ff3366;
+    color: white;
+    padding: 15px 15px;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff3366;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .glowing-button:hover {
+    box-shadow: 0 0 20px #ff3366;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: #ff3366;
+    border-right: 3px solid #ff3366;
+    display: inline-block;
+    width: 0;
+    margin:0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(30) 1s forwards, blinkCaret 0.75s step-end infinite;
+  }
+
+  @keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+
+  @keyframes blinkCaret {
+    50% { border-color: transparent; }
+  }
+
+.Yes{
+    font-family: 'Roboto' ;
+    font-size: medium;
+    font-weight: 1000;
+    color: rgb(201, 58, 19);
+    display: flex;
+    margin: 0;
+    justify-content: center;  
+    align-items: center;
+}
+
+button[class="1"]{
+    margin-bottom: 0px;
+    border-radius: 10%;
+    height: 30px;
+    width: 1000px;
+}
+
+button:hover{
+  border-color:transparent;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff3366;
+    transition: box-shadow 0.1s ease;
+}
+
+button[class="2"]{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 10%;
+  height: 30px;
+  width: 1000px;
+}
+
+button[class="3"]{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 10%;
+  height: 30px;
+  width: 1000px;
+}
+
+button[class="4"]{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 10%;
+  height: 30px;
+  width: 1000px;
+}
+
+button[class="5"]{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 10%;
+  height: 30px;
+  width: 1000px;
+}
