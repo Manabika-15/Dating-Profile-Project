@@ -1,6 +1,6 @@
 # Dating Profile Project
 
-This project showcases a dating profile website built with HTML, CSS, and JavaScript.
+This project showcases a dating profile website built with HTML & CSS.
 
 ## 🚀 Live Demo
 
